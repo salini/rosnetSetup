@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=ROS NET Setup
+Comment=
+Exec=python /home/<user>/bin/rosnetSetup/rosnetSetup.py
+Icon=/home/<user>/bin/rosnetSetup/ros_icon.png
+Terminal=false
+Type=Application
+StartupNotify=true
