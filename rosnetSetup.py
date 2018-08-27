@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 """ ROS NET SETUP
-This python script is inteded to ease the setup of the ros net.
+This python script is intended to ease the setup of the ros net.
 In particular, it will set the environment variables:
 
 * ROS_IP
@@ -12,10 +12,10 @@ REQUIREMENTS
 
 install:
 * python
-* PyQt4
+* PyQt4/PyQt5
 
 add in the end of your ~/.bashrc (as for ros setup files):
-* source $HOME/.ros/rosnetConfiguration.bash
+* source $HOME/.ros/rosnetSetup.bash
 
 HOW TO RUN IT
 =============
@@ -23,12 +23,12 @@ HOW TO RUN IT
 either:
 * add this file in a ubuntu launcher, and run it
 or:
-* run it directly as: 'python rosnetSetup.py'
+* run it directly as: `python rosnetSetup.py`
 
 WHAT IT WILL DO
 ===============
 
-This script will spawn a GUI that will write the env variables in the file "$HOME/.ros/rosnetConfiguration.bash"
+This script will spawn a GUI that will write the env variables in the file "$HOME/.ros/rosnetSetup.bash"
 If you source this file in your ~/.bashrc (see on top), your will configure the ros network.
 
 GUI EXPLAINATION
@@ -41,7 +41,7 @@ it is composed of:
 * checkbox whether or not you want to define ROS_MASTER_URI
 * two edit boxes with: rosmaster_ip & rosmater_port
 * apply button, to write configuration in the file "$HOME/.ros/rosnetSetup.bash"
-* spawn roscore button, to spwan a terminal which execute a roscore command
+* spawn roscore button, to spawn a terminal which execute a roscore command
 
 
 the combobox gives you all the available ip of your networks.
