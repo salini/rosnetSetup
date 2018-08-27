@@ -22,12 +22,12 @@ either:
 or:
 * run it directly as: `python rosnetSetup.py`
 
-## WHAT IT WILL DO
+## What it will do
 
 This script will spawn a GUI that will write the env variables in the file "$HOME/.ros/rosnetSetup.bash"
 If you source this file in your ~/.bashrc (see on top), your will configure the ros network.
 
-## GUI EXPLAINATION
+## GUI Explanation
 
 it is composed of:
 
